@@ -60,7 +60,7 @@ print("---Cookie  QPython v1.0---")
 s = socket.socket()
 
 host=raw_input("IPServer::")
-port=7373 # you can change this, depends of your backdor
+port=7373 # you can change this, depends of your port forward
 confirm = "cookie"
 
 s.bind((host,port))
