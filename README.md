@@ -16,6 +16,6 @@ You can use it on your mobile phone (use QPython) or in your computers. You have
 
 >cookie.Connect("127.0.0.1",7373);
 
-Thene you have just to run it and connect with Cookie Client.
+Then you have just to run it and connect with Cookie Client.
 
 
