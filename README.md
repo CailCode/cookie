@@ -16,6 +16,7 @@ You can use it on your mobile phone (use QPython) or in your computers. You have
 
 >cookie.Connect("127.0.0.1",7373);
 
-Then you have just to run it and connect with Cookie Client.
+You must install it on victim machine and in some way (there are a lot of ways) start it, then it writes it self in the Autorun registry.
+Then you have just to connect with Cookie Client.
 
 
