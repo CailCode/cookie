@@ -1,0 +1,10 @@
+C:\Users\caleb\Desktop\Cookie\Cookie\bin\Debug\Cookie.exe.config
+C:\Users\caleb\Desktop\Cookie\Cookie\bin\Debug\Cookie.exe
+C:\Users\caleb\Desktop\Cookie\Cookie\bin\Debug\Cookie.pdb
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.csprojAssemblyReference.cache
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.Form1.resources
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.Properties.Resources.resources
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.csproj.GenerateResource.cache
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.csproj.CoreCompileInputs.cache
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.exe
+C:\Users\caleb\Desktop\Cookie\Cookie\obj\Debug\Cookie.pdb
