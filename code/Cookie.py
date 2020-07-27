@@ -20,7 +20,7 @@ class listener(Thread):
         print("--write 'esc' for <com::>--")
         print("--write 'push' for print buffer--")
         while 1:
-            s=raw_input("key::") # for Qpython, else use input()
+            s=raw_input("key::") # Qpython mode
             if(s=="push"):
                 print(push) # print buffer
                 push=""
