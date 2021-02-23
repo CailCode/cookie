@@ -8,7 +8,7 @@ It's a spyware so... spy! It can send all sorts of commands to the pc victim, an
 >Cookie_Client
 >>Cookie_Server
 
-- The Cookie Server is the scrpit Python, this is the script that you have to use for controlling the victim machine;
+- The Cookie Server is the python script, this is the script that you have to use for controlling the victim machine;
 
 You can use it on your mobile phone (use QPython) or in your computers. You have to set only the IP, the victim has to be in your LAN or you have to use a forward port. The default port is [7373]
 
