@@ -1,7 +1,7 @@
 # __Cookie__:cookie:
 >Cookie is a Spyware created for educationl purpose only so use this only in a protected and authorized environment.
 
-# What does it do?
+# What can it do?
 It's a spyware so... spy! It can send all sorts of commands to the pc victim, and it is also a __keylogger__ so it can read what the victim is typing on his keyboard.
 
 # How is it structred?
