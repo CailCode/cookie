@@ -15,10 +15,6 @@ It's a spyware so... spy! It can send all sorts of commands to the pc victim, an
 
 ---
 
-### Directories Structure
-
----
-
 ### Instructions
 
 - The Cookie Server is the python script, this is the script that you have to use for controlling the victim machine;
